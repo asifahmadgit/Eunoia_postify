@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-gr$%l%k_!=oei)t38+k_=y32ty@fl7i+e+&z9%cc+$46c4=4kw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+ALLOWED_HOSTS = ['flash.pythonanywhere.com']
 
-ALLOWED_HOSTS = []
 
 
 # Application definition
